@@ -4,3 +4,4 @@ tokenizers>=0.13,<1
 onnxruntime>=1.14,<2 
 av>=11
 tqdm
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
